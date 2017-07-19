@@ -1,15 +1,14 @@
 {
-  "name": "fis-vue-mis",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "{{ description }}",
   "scripts": {
     "clean": "rm -rf output",
     "dev": "npm run clean && fis3 release -wL",
     "otp": "npm run clean && fis3 release otp -d . --clean",
     "build": "npm run clean && fis3 release prod -d . --clean"
   },
-  "author": "",
+  "author": "{{ author }}",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.3",
