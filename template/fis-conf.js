@@ -3,6 +3,7 @@
  */
 
 const path = require('path');
+const packageObj = require('./package.json');
 
 
 let modCache = process.env.CACHE;
@@ -25,7 +26,7 @@ else {
 }
 
 // 配置命名空间
-fis.set('namespace','fis-vue-mis');
+fis.set('namespace',packageObj.name);
 
 
 // chrome下可以安装插件实现livereload功能

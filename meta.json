@@ -8,7 +8,7 @@
     "description": {
       "type": "string",
       "required": true,
-      "label": "Project name"
+      "label": "Project description"
     },
     "author": {
       "type": "string",
