@@ -1,0 +1,19 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Project name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project name"
+    },
+    "author": {
+      "type": "string",
+      "label": "Author"
+    }
+  },
+  "completeMessage": "{{#inPlace}}To get started:\n\n  npm install\n  fis3 server start\n  npm run dev.{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install\n  fis3 server start\n  npm run dev.{{/inPlace}}"
+}

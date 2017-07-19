@@ -1,0 +1,10 @@
+[
+  "axios",
+  "vue",
+  "vuex",
+  "vue-router",
+  "vuex-router-sync",
+  "iview",
+  "nprogress",
+  "store2"
+]

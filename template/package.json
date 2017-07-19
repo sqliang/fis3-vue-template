@@ -1,0 +1,41 @@
+{
+  "name": "fis-vue-mis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf output",
+    "dev": "npm run clean && fis3 release -wL",
+    "otp": "npm run clean && fis3 release otp -d . --clean",
+    "build": "npm run clean && fis3 release prod -d . --clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "iview": "^2.0.0-rc.18",
+    "nprogress": "^0.2.0",
+    "store2": "^2.5.0",
+    "vue": "^2.4.1",
+    "vue-router": "^2.3.0",
+    "vuex": "^2.3.1",
+    "vuex-router-sync": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "fis-parser-babel-6.x": "^6.24.1",
+    "fis3-deploy-skip-packed": "0.0.5",
+    "fis3-deploy-tar": "^1.0.1",
+    "fis3-hook-commonjs": "^0.1.26",
+    "fis3-hook-node_modules": "^2.2.8",
+    "fis3-optimizer-dfy-html-minifier": "^1.0.1",
+    "fis3-parser-stylus": "^0.1.3",
+    "fis3-parser-translate-es3ify": "0.0.3",
+    "fis3-parser-typescript": "^1.1.1",
+    "fis3-parser-vue-component": "^5.4.0",
+    "fis3-postpackager-loader": "^2.1.4",
+    "fis3-postprocessor-autoprefixer": "^1.0.0",
+    "fis3-preprocessor-js-require-css": "^0.1.1",
+    "fis3-preprocessor-js-require-file": "^0.1.3"
+  }
+}
